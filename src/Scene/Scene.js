@@ -1,4 +1,6 @@
 import Node from './Node';
+// eslint-disable-next-line import/no-cycle
+import RenderTarget from '../Renderers/RenderTarget';
 
 /**
  * A scene
@@ -95,7 +97,7 @@ class Scene {
     /**
      * Visit a node and his children
      *
-     * @param {RenderTarget} renderTarget Renderer who called this method
+     * @param {RenderTarget} target Renderer who called this method
      * @param {Node} node A Node instance to visit
      * @private
      */

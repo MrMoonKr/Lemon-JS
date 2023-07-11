@@ -1,6 +1,7 @@
 import Color from '../Color';
 import Context from '../Context';
 import RenderTask from './RenderTask';
+import Scene from '../Scene/Scene';
 
 /**
  * A rendering target

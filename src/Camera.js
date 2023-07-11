@@ -1,9 +1,4 @@
-import * as mat4 from 'gl-matrix/mat4';
-import * as vec2 from 'gl-matrix/vec2';
-import * as vec3 from 'gl-matrix/vec3';
-import * as vec4 from 'gl-matrix/vec4';
-import * as quat from 'gl-matrix/quat';
-import { glMatrix } from 'gl-matrix';
+import { vec2, vec3, vec4, quat, mat4, glMatrix } from 'gl-matrix';
 import { project, unproject } from './Math/gl-matrix-extension';
 
 /**
